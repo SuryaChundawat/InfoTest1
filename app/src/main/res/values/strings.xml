@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">mSmartLite</string>
+    <string name="remove_completed_tasks">Remove Asset</string>
+    <string name="no_tasks">No Assets.</string>
+    <string name="tasks">Assets</string>
+    <string name="assetBarcode">Scan Barcode</string>
+    <string name="assetLocation">Location</string>
+    <string name="assetCondition">Condition</string>
+    <string name="add_task">Add Asset</string>
+    <string name="cancel_task">Cancel</string>
+    <string name="unsaved_changes_title">Unsaved Changes</string>
+    <string name="unsaved_changes_message">Would you like to add this Asset?</string>
+    <string name="discard">Discard</string>
+    <string name="turnover_values">&lt;10Lacs</string>
+    <string name="spinner_prompt">Turnover</string>
+    <string name="title_activity_number_picker">Years</string>
+    <string name="choose_formats">Choose Formats</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="toggle_flash">Flash</string>
+    <string name="flash_on">Flash [ON]</string>
+    <string name="flash_off">Flash [OFF]</string>
+    <string name="auto_focus_on">Auto Focus [ON]</string>
+    <string name="auto_focus_off">Auto Focus [OFF]</string>
+    <string name="formats">Formats</string>
+    <string name="scanURL">www.scaninfotech.com</string>
+    <string name="activateButton">Activate</string>
+
+    <string-array name="turnover_array">
+        <item>In Use</item>
+        <item>Not In Use</item>
+        <item>Not Working</item>
+        <item>Scrapped</item>
+    </string-array>
+
+    <string name="string_chkBox1">Jewellery</string>
+    <string name="string_chkBox2">Precious Stones</string>
+    <string name="string_chkBox3">Loose Stones</string>
+    <string name="string_chkBox4">Pearls</string>
+    <string name="export_data">Export Data</string>
+    <string name="title_activity_simple_scanner">SimpleScannerActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="scan_prompt">Scan</string>
+    <string name="viewImageList">List</string>
+
+</resources>

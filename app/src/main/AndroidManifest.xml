@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.scaninfotech.android.msmartlite" >
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <!--<uses-permission android:name="android.permission.GET_ACCOUNTS" />-->
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.hardware.CAMERA" />
+    <uses-permission android:name="android.hardware.CAMERA.autofocus" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!--<uses-permission android:name="android.permission.RECORD_AUDIO" />-->
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+
+    <application
+        android:name=".AssetRegistration"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_msmart"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <!--activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity-->
+        <activity
+            android:name=".AssetRegistrationActivity"
+            android:label="@string/app_name" >
+            <!--intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter-->
+        </activity>
+        <activity
+            android:name=".ViewAssetsActivity"
+            android:label="@string/app_name" >
+            <!--intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter-->
+        </activity>
+        <activity
+            android:name=".AssetListItemImage"
+            android:label="@string/app_name" >
+            <!--intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter-->
+        </activity>
+        <activity
+            android:name=".DownloadFile"
+            android:label="@string/app_name" >
+            <!--intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter-->
+        </activity>
+        <activity
+            android:name=".ActivateActivity"
+            android:label="@string/app_name" >
+            <!--intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter-->
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddAssetActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".SimpleScannerActivity"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>

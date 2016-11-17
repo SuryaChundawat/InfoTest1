@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<ListView  
+		android:id="@id/android:list"
+	    android:layout_width="fill_parent" 
+	    android:layout_above="@id/add_button" 
+	    android:layout_height="fill_parent"/>
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id = "@id/android:empty"
+		android:text="@string/no_tasks"
+		android:gravity="center_vertical|center_horizontal"
+		android:layout_above="@id/add_button"
+	/>
+	<Button  
+		android:id="@+id/add_button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:text="@string/add_task"
+        android:background="#ff3ca45e"
+        android:textColor="#ffffffff"
+	/>
+	<Button
+		android:id="@+id/remove_button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        android:text="@string/remove_completed_tasks"
+        android:background="#ff3ca45e"
+        android:textColor="#ffffffff"
+        android:paddingLeft="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/export_button"
+        android:layout_toEndOf="@+id/add_button"
+        android:layout_toRightOf="@+id/add_button"
+        android:paddingRight="20dp" />
+	<Button
+		android:id="@+id/export_button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        android:text="@string/export_data"
+        android:background="#ff3ca45e"
+        android:textColor="#ffffffff"
+        android:paddingLeft="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingRight="10dp" />
+
+</RelativeLayout>

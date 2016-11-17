@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.scaninfotech.android.msmartlite"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    //compile 'com.android.support:appcompat-v7:+'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:design:23.0.1'
+    compile 'com.javahelps:externalsqliteimporter:+'
+   // compile files('libs/android-support-v4.jar')
+    //compile files('libs/opencsv-2.4.jar')
+    //compile fileTree(include: ['*.jar'], dir: 'libs')
+    //compile fileTree(dir: 'libs', include: ['*.jar'])
+    //androidTestCompile 'junit:junit:4.12'
+    //compile 'com.android.support:appcompat-v7:21.0.3'
+    //compile 'com.android.support:support-v4:22.0.0'
+    compile 'com.google.android.gms:play-services:6.5.87'
+    //compile files('/Users/kauser/AndroidstudioProjects/mSmartLite/libs/opencsv-2.4.jar')
+    //compile files('/AndroidWorkspace/mSmartLite/libs/opencsv-2.4.jar')
+    compile 'me.dm7.barcodescanner:zxing:1.6'
+    //compile files('/Users/kauser/AndroidstudioProjects/mSmartLite/libs/zbar.jar')
+    compile 'me.dm7.barcodescanner:zbar:1.9'
+    compile files('C:/AndroidWorkspace/mSmartLite/libs/opencsv-2.4.jar')
+}
